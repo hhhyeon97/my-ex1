@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>연습</title>
+    <style>
+      body {
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(45, 45, 45);
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        color: #4caf50;
+      }
+
+      .image-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 한 줄에 3개씩 배치 */
+        gap: 10px; /* 이미지 간 간격 */
+        justify-items: center; /* 이미지를 가운데 정렬 */
+      }
+
+      .image-container img {
+        width: 80px; /* 이미지 크기 */
+        height: 80px;
+        border-radius: 50%; /* 동그란 이미지 */
+        border: 2px solid #4caf50; /* 이미지 테두리 */
+        object-fit: cover; /* 이미지 비율에 맞게 잘림 */
+      }
+      .image-container img:hover {
+        scale: 1.2;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>haha╰(^o^)╮</h1>
+      <div class="image-container">
+        <img
+          src="https://i.pinimg.com/736x/6f/dd/86/6fdd860b0bbf50f0b9a74e767db4b854.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/e9/54/ce/e954ce1f9b2d0861cf46d8312a3367e7.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/a3/7e/78/a37e781d594342b854c815b13f8a9a29.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/6a/04/71/6a0471d708a301fba882b915eb2f7676.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/b8/f1/f1/b8f1f1dc50c09402e5461bf5daf2035f.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/f7/c3/fa/f7c3faa3ed5ba2ef83f71f4684bab2a0.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/9d/e5/28/9de528ca569a445ba46523019dc22f2a.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/1a/76/74/1a7674127b383ce6830006d45dc99200.jpg"
+        />
+        <img
+          src="https://i.pinimg.com/736x/f4/84/05/f48405c9d5291ac551137ada0377a4a2.jpg"
+        />
+      </div>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
